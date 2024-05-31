@@ -35,10 +35,10 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: José Díaz Gaspar
-  email: josediaz.swengineering@gmail.com # change to your email address
+  email: pepediazgaspar@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
+    - https://twitter.com/josediazgp # change to your twitter homepage
     - https://github.com/pepedg # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -76,7 +76,7 @@ theme_mode: # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'assets\images\yo.png'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -171,6 +171,10 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 sass:
   style: compressed
